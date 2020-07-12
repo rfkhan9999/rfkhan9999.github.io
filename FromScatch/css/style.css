@@ -1,0 +1,343 @@
+body{
+  background-color:  rgba(211, 84, 0, 1);
+}
+header{
+  background-image: url("../images/Eyes.jpg");
+  background-size: cover;
+  border-top-left-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  width: 100vw;
+  height: 100vh;
+
+}
+#sooth{
+  color: white;
+  font-size: 8vh;
+  padding-left: 1vw;
+  font-family:'Volkhov', serif;
+}
+
+@media only screen and (min-width: 400px ){
+#desc{
+  margin-top: 20vh;
+  color: white;
+  font-size: 3vh;
+  padding-left: 3vw;
+  font-family:'Volkhov', serif;
+  }
+}
+  
+@media only screen and (min-width: 800px ){
+  #desc{
+   margin-top: 35vh;
+   color: white;
+   font-size: 4vh;
+   padding-left: 3vw;
+   font-family:'Volkhov', serif;
+  } 
+}
+
+
+nav{
+  background-color: rgba(249, 105, 14, 0.5);
+  height: 7vh;
+  border-top-left-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+  font-family:'Volkhov', serif;
+  /*border-bottom: 0.2vh solid;
+  border-color: white;*/
+}
+
+ nav li {
+   display: inline-block;
+   margin-top: 1vh;
+
+   }
+
+@media only screen and (min-width: 800px ){
+  nav li {
+   display: inline-block;
+   margin-top: 1.7vh;
+
+   }
+}
+a{
+  color:  rgba(211, 84, 0, 1);
+  text-decoration: none;
+
+}
+
+nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.1vh;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-bottom: 1.5vh;
+  padding-top: 1.5vh;
+  border-radius: 1.5vh;
+  margin-right: 2vw;
+  font-variant: small-caps;
+
+ }
+
+@media only screen and (min-width: 800px ){
+ nav a{
+  color: white;
+  text-decoration: none;
+  font-size: 3vh;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  padding-bottom: 1.5vh;
+  padding-top: 1.5vh;
+  border-radius: 1.5vh;
+  margin-right: 2vw;
+  font-variant: small-caps;
+
+ }
+}
+
+.home{
+  padding-left: 0vw;
+  padding-right: 0vw;
+
+}
+
+@media only screen and (min-width: 800px ){
+.home{
+  padding-left: 0.8vw;
+  padding-right: 0.8vw;
+}
+}
+nav a:hover{
+  background-color: rgba(249, 105, 14, 1)
+  
+}
+
+h1{
+  color: black;
+  font-size: 4vh;
+  width: 38vw;
+  padding-left: 1vw;
+  background-color: rgba(255, 203, 5, 1);
+  border-radius: 1vh;
+  font-family:"Permanent Marker",serif;
+ }
+
+@media only screen and (min-width: 800px ){
+ h1{
+  color: black;
+  font-size: 8vh;
+  width: 30vw;
+  padding-left: 1vw;
+  background-color: rgba(255, 203, 5, 1);
+  border-radius: 1vh;
+  font-family:"Permanent Marker",serif;
+ }
+}
+
+h2{
+  padding-left: 1vw;
+  width: 40vw;
+  font-size: 3vh;
+  background-color: yellow;
+  font-family:"Permanent Marker",serif;
+  border-radius: 1vh;
+ }
+
+@media only screen and (min-width: 800px ){
+ h2{
+  padding-left: 1vw;
+  width: 27vw;
+  font-size: 6vh;
+  background-color: yellow;
+  font-family:"Permanent Marker",serif;
+  border-radius: 1vh;
+ }
+}
+
+.items{
+  color: white;
+  font-size: 5vh;
+  display: inline-block;
+  width: 24vw;
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  background-color: black;
+  /*background-image: url('item1.jpg');
+  background-size: cover;*/
+  text-align:center;
+}
+@media only screen and (max-width: 800px ){
+  .items{
+    width: 23vw;
+
+  }
+}
+.i{
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  width: 24vw;
+  height:77vh;
+  background-color: rgba(255, 203, 5, 1);
+  display: inline-block;
+}
+h4{
+  margin-top: 60vh;
+}
+
+.infobox{
+  width: 23vw;
+  height:15vh;
+  background-color: rgba(255, 203, 5, 1);
+  display: inline-block;
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-family:"Mukta",serif;
+  font-weight: bolder;
+}
+
+@media only screen and (min-width: 800px ){
+.infobox{
+  width: 24vw;
+  height:15vh;
+  background-color: rgba(255, 203, 5, 1);
+  display: inline-block;
+  border-top-left-radius: 1vh;
+  border-top-right-radius: 1vh;
+  border-bottom-left-radius: 1vh;
+  border-bottom-right-radius: 1vh;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  font-family:"Mukta",serif;
+  font-weight: bolder;
+
+ }
+}
+
+.info{
+  font-size: 1.3vh;
+  margin: 0vh;
+  border: 0vh;
+  padding-left: 1.5vw;
+  padding-top: 0.7vh;
+  }
+
+@media only screen and (min-width: 800px ){
+ .info{
+  font-size: 2.5vh;
+  padding-left: 1.5vw;
+  padding-top: 0.7vh;
+  margin: 0vh;
+  border: 0vh;
+ }
+}
+
+
+footer{
+  margin-top: 7vh;
+  background-image: url("../images/paint.jpg");
+  background-size: cover;
+  height:55vh;
+
+}
+
+#topfoot{
+  padding-top: 4vh;
+  color: white;
+  font-size: 6vh;
+  padding-left: 1vw;
+  font-family:'Volkhov', serif;
+}
+
+#buttfoot{
+  color: black;
+  font-size: 3vh;
+  padding-left: 1vw;
+  font-family:'Volkhov', serif;
+
+ }
+
+@media only screen and (min-width: 800px ){
+ #buttfoot{
+  color: white;
+  font-size: 3vh;
+  padding-left: 3vw;
+  font-family:'Volkhov', serif;
+
+ }
+}
+
+.leftarrow{
+  display: inline-block;
+  height:3vh;
+  margin-right: 1vw;
+}
+.rightarrow{
+  display: inline-block;
+  height:3vh;
+  margin-left: 1vw;
+}
+
+
+#palvin{
+  color: white;
+  border-color: rgba(249, 105, 14, 1);
+  background-color: rgba(249, 105, 14, 1);
+}
+#portraits{
+  border-radius: 1vh;
+  background-color: rgba(249, 105, 14, 1) ;
+  margin-top: 2vh;
+}
+#couple{
+  border-radius: 1vh;
+  margin-top: 2vh;
+  background-color: rgba(249, 105, 14, 1) ;
+
+}
+#medievalc{
+  border-radius: 1vh;
+  margin-top: 2vh;
+  background-color: rgba(249, 105, 14, 1) ;
+
+}
+
+.ic1{
+  margin-left: 10vw;
+  color: rgba(31, 58, 147, 1);
+  }
+
+@media only screen and (min-width: 800px ){
+ .ic1{
+  margin-left: 12vw;
+  color: rgba(31, 58, 147, 1);
+ }
+}
+
+.ic2{
+  color: rgba(154, 18, 179, 1);
+}
+
+i{
+  margin-left: 10vw;
+  margin-top: 8vh;
+  color: rgba(207, 0, 15, 1);
+ }
+
+@media only screen and (min-width: 800px ){
+ i{
+  margin-left: 20vw;
+  margin-top: 10vh;
+  color: rgba(207, 0, 15, 1);
+ }
+}
